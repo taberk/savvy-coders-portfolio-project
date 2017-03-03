@@ -1,3 +1,19 @@
+div#intro {
+  margin:auto;
+  background-color: grey;
+  float: top;
+  border: 3px black;
+  width: 50%;
+  color: white;
+
+}
+
+
+.header {
+  background-color: grey;
+
+}
+
 body {
   background-color:white;
 }
@@ -57,3 +73,8 @@ ul#nav {
 			ul#nav li a:hover {
 				color: #a12121;
 			}
+#googleapi {
+  display:block;
+
+  float:top;
+}
