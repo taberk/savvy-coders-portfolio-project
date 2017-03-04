@@ -1,14 +1,23 @@
 div#intro {
-  margin:auto;
+  margin:100px;
   background-color: grey;
   float: top;
   border: 3px black;
   width: 50%;
   color: white;
+  padding: 100px;
 
 }
-
-
+div#blog {
+  margin:100px;
+  background-color: grey;
+  float: left;
+  border: 500px black;
+  padding: 100px;
+  width: 25%;
+  color: white;
+  border-radius: 8px;
+}
 .header {
   background-color: grey;
 
@@ -87,4 +96,7 @@ ul#nav {
     height: 50px ;
     background-color: #f6f6f6 ;
     bottom:0px;
+}
+#hr {
+  height: 50px;
 }
