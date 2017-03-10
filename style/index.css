@@ -106,10 +106,18 @@ textarea {
 }
 form {
   width: 500px;
+  height: 500px;
 }
 input {
   float: left;
 }
 .hidden {
   display: none;
+}
+.round {
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
 }
