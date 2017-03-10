@@ -104,3 +104,12 @@ textarea {
   width: 200px;
   height: 200px;
 }
+form {
+  width: 500px;
+}
+input {
+  float: left;
+}
+.hidden {
+  display: none;
+}
