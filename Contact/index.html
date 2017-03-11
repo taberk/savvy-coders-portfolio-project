@@ -16,7 +16,9 @@
 	<li><a href="../Portfolio/index.html">Portfolio</a></li>
 	<li><a href="Contact.html">Contact</a></li>
 </ul>
+
 <hr>
+<!--
 <iframe
   id ="googleapi"
   width="300"
@@ -26,13 +28,18 @@
     &q=Chattanooga+TN" allowfullscreen>
 </iframe>
 <a href="mailto:taberkyled@gmail.com"> Email Me </a>
-<form>
-  <label for="name" class="hidden">Name:</label><input name="name" type="text" placeholder="Name" class="round">
-  <label for="email" class="hidden">Email:</label><input name="email" type="email" placeholder="Email" class="round">
-  <input type="submit">
-  <label for="message" class="hidden">Message:</label><textarea name="message" id="" placeholder="Text" class="round"></textarea>
-  
+-->
+<div id="form">
+<form action="https://formspree.io/taberkyled@gmail.com" method="POST">
+  <label for="name" class="hidden" name="bleh">Name:</label><input name="Name:" type="text" placeholder="Name" class="round">
+  <label for="email" class="hidden" name="bleh">Email:</label><input name="Email:" type="email" placeholder="Email" class="round">
+  <label for="message" class="hidden" name="bleh">Message:</label><textarea name="Message:" id="" placeholder="Text" class="round"></textarea>
+  <input type="submit" class="round" value="Send">
+
+
+
 
 </form>
+</div>
 </body>
 </html>
